@@ -1,0 +1,251 @@
+.container{
+	margin-top: 20px;
+}
+@media(max-width: 500px){
+	.gyx_container{
+	  width:100%; 
+	 /* background-color: red;*/
+	}
+}
+@media(min-width: 500px){
+	.gyx_container{
+	  width:100%;
+	  height: 100%;
+	  /* background-color: blue;*/ 
+	}
+}
+ .home{
+    text-decoration: none;
+    color: #333;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    background: url(../img/misc.png) 27px -147px no-repeat;
+    padding: 0 0 0 45px;
+}
+
+/*@media screen and (max-width:330px){
+   .col-md-12{
+	   font-size:16px;
+   }
+}
+*/
+.gyx_container{
+	height: 916px;
+	max-width: 1000px;
+	margin-top: 10px;
+	background-image: url(../img/major02.jpg);
+}
+.gyx_container .row{
+	margin: 0 auto;
+}
+.gyx_container .row1{
+	padding: 20px;
+}
+.gyx_container .gyx_left{
+	width: 440px;
+	height: 408px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+	line-height: 1.8;
+}
+.gyx_container .gyx_left2{
+	width: 440px;
+	height: 408px;
+	float: left;
+	margin-top: 40px;
+	line-height: 1.8;
+}
+.gyx_container h2{
+	font-size: 16px;
+    font-family: "microsoft yahei";
+    margin: 15px 0 10px;
+
+}
+.gyx_container p{
+	font-size: 12px;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0 0 10px;
+}
+.gyx_container .gyx_right{
+	width: 450px;
+	height: 338px;
+	margin-top: 40px;
+	margin-left: 15px;
+	float: left;
+	padding: 15px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: '黑体';
+    text-align: center;
+}
+.gyx_container .gyx_right2{
+	width: 450px;
+	height: 338px;
+	margin-top: 40px;
+	float: left;
+	padding: 15px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: '黑体';
+    text-align: center;
+}
+.gyx_container img{
+	width: 450px;
+	height: 298px;
+	padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    margin: 0 auto;
+}
+hr{
+    width: 93%;
+    border-top: 1px solid #ccc;
+    position: relative;
+    top:20px;
+}
+@media(max-width: 768px){
+	.gyx_container{
+		width: 100%;
+	   height: 100%;
+		background-image: url(../img/major02.jpg);
+	}
+	.gyx_container .gyx_left,.gyx_container .gyx_left2{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	}
+	.gyx_container h2{
+	font-size: 21px;
+    font-family: "microsoft yahei";
+    margin: 15px 0 10px;
+
+}
+.gyx_container p{
+	font-size: 16px;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0 0 10px;
+}
+	.gyx_container .gyx_right{
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+	font-size: 21px;
+    font-weight: bold;
+    font-family: simsun;
+    text-align: center;
+	}
+	.gyx_container .gyx_right2{
+		width: 100%;
+		height: 100%;
+		font-size: 21px;
+	    font-weight: bold;
+	    font-family: simsun;
+	    text-align: center;
+	}
+	.gyx_container img{
+		width: 100%;
+		height: 100%;
+	}
+	 .gyx_container .col-md-12{
+	   font-size:16px;
+   }
+}
+#right{
+	float: left;
+}
+#left{
+	float: right;
+}
+.star{
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ .col-md-12{
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    background: url(../img/mbx01.png) no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    overflow: hidden;
+    color: #333;
+    font-family: "simsun";
+    margin-left: 14px;
+}
+.as{
+	padding: 0;
+	width:100%;
+}
+.contai_tiao{
+	padding: 0;
+	margin: 0;
+	left: 15px;
+}
+
+ .share {
+    	 	position: fixed;
+    	 	top: 16%;
+    	 	left: -230px;
+         }
+    	 .share_box {
+    	 	width: 230px;
+    	 	height: 325px;
+    	 	color: rgb(90,90,90);
+    	 	position: relative;
+    	 	background-color: red;
+    	 }
+    	 .share_right {
+            position: absolute;
+            right: -27px;
+            top: 17%;
+            width: 30px;
+            height: 90px;
+            background-color: rgb(70,119,230);
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+    	 }
+    	 .share_right p {
+    	    margin-top: 19px;
+    	 	font-size: 17px;
+    	 	color: white;
+    	 }
+    	 .share_box .share_top {
+    	 	width: 100%;
+    	 	height: 30px;
+    	 	background-color: rgb(246,246,246);
+    	 	line-height: 30px;
+    	 }
+    
+    	  .share_box .share_center {
+    	  	width: 100%;
+    	  	height: 265px;
+    	  	overflow: hidden;
+    	  	background-color: white;
+    	  }
+    	  .share_box .share_center .share_platform {
+    	  	 width: 100%;
+             height: 100%;
+             margin-left: 18px;
+    	  }
+    	  .share_box .share_center .share_platform a {
+    	  	display: inline-block;
+    	  	width: 74px;
+    	  	height: 21px;
+    	  	line-height: 21px;
+    	    text-indent: 10px;
+    	  }
+    	  .share_box .share_bottom {
+    	  	width: 100%;
+    	  	height: 30px;
+    	  	background-color: rgb(246,246,246);
+    	  	
+    	  }
+    	  .share_box .share_bottom a{
+            float: right;
+    	  }

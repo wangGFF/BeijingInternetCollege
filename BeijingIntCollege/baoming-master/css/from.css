@@ -1,0 +1,321 @@
+ *{
+   padding: 0;
+   margin: 0;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+.content{
+  width: 100%;  
+}
+.tow_content{
+  width: 1000px;
+  height: 1552px;
+  margin: 0 auto;
+}
+.chm_tag{
+  width: 100%;
+  height: 28px;
+  background-image: url(../img/mbx01.png);
+  color: #333;
+  background-size: 100% 100%;
+  line-height: 28px;
+  font-size:14px;
+  padding-left:30px;  
+  margin: 10px 0;
+}
+.home{
+  float: left;
+  background-image: url(../img/misc.png);
+  background-position:0px -142px;
+  padding: 0 0 0 20px;
+  color: #333;
+}
+.zhinan{
+ width: 29%;
+ margin-bottom: 10px;
+ background-image: url(../img/zhinan.png);
+
+}
+#riqi_id{
+  opacity: 0;
+}
+.zhinan_ti{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 1.5em;
+  color: #fff;
+  padding-left:20px; 
+  font-family: "microsoft yahei";
+  background-image: url(../img/enroll02.png);
+}
+.zhinan_formation{
+  width: 100%;
+  padding-left: 20px;
+  font-size: 1em; 
+  font-family: simsun;
+}
+.zhinan_formation li{
+  list-style: none;
+  width: 100%;
+  line-height: 28px;
+}
+.zhinan_formation li a{
+  color: rgb(178, 34, 34);
+  font-size: 1em;
+}
+.fengei{
+  margin-bottom: 60px;
+}
+.dianhua{
+  width: 29%;
+  height: 211px;
+  background: url(../img/enroll03.jpg) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+}
+.left{
+  float: left;
+}
+.form-control{
+  border: 1px solid #B2CFDA;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+.select_style{
+  border: 1px solid #B2CFDA;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+  height: 27px;
+  line-height: 27px;
+  border-radius: 3px;
+}
+.from_div{
+  float: right;
+  width: 70.2%;
+  font-size: 14px;
+  background-image: url(../img/major02.jpg);
+}
+.from_ti{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  padding-left:20px; 
+  min-width: 380px;
+  font-family: "microsoft yahei";
+  background-image: url(../img/enroll02.png);
+}
+.from_ti span{
+  font-size: 0.8;
+  color: #999;
+  padding: 0 0 0 1em;
+}
+.from_text{
+  padding: 3% 6%;
+  overflow: hidden;
+  border: 1px solid #CCD3DD;
+  font-size: 1em;
+  font-family: simsun;
+}
+#xian{
+      width:548px;
+      height: 1px;
+      background-color: #ccc;
+      margin: 0 auto;
+      margin-bottom:16px; 
+      display: none;
+}
+.control-label{
+  font-size: 14px;
+  color: #333;
+  font-weight: normal;
+  white-space: nowrap;
+    width: 21%;
+}
+.yanzheng{
+  color: #f60;
+  font-size: 9px;
+  position: relative;
+  top: 8px;
+  opacity: 0;
+
+}
+.kuang_width{
+  width: 400px;
+  resize:none;
+}
+.tijaiohe{
+  width: 100%;
+  height: 90px;
+  position: relative;
+}
+.tijiao{
+  background: url(../img/button.png) 0 -235px;
+    width: 196px;
+    height: 37px;
+    display: block;
+    font-family: "microsoft yahei";
+    text-align: center;
+    color: #333;
+    font-size: 1.6em;
+    border: 0;
+    text-indent: 15px;
+    cursor: pointer;
+    position:absolute;
+    left: 50%;
+    bottom:20px;
+    margin-left: -98px;
+}
+@media screen and (max-width:1037px) {
+      .tow_content{
+        width: 100%;
+        height: 2173px;
+      }
+      .yanzhan1{
+        width: 100%;
+        margin-left: 22%;
+      }
+      .control-label{
+         white-space:normal;
+         }
+}
+@media screen and (max-width:655px) {
+      #xian{
+        display: block;
+        width:90%;
+      }
+        .control-label{
+         white-space:nowrap;
+         }
+      .juli{
+        margin-left: 5%;
+      }
+      .geli{
+        margin-left: 5%;
+      }
+      .zhinan{
+        width: 100%;
+        height: 300px;
+      }
+      .dianhua{
+        width: 100%;
+        height: 350px;
+      }
+      .tow_content{
+        width: 100%;
+        height: 3650px;
+      }
+      .from_div{
+        width: 100%;
+      }
+    }
+@media screen and (max-width:380px) {
+      .from_div{
+       width: 100%;
+      }
+      .juli{
+        margin-left: 5%;
+        width: 90%;
+      }
+      
+    }
+
+   /* 分享开始*/
+         .share {
+          border: none;
+          position: fixed;
+          top: 104px;
+          left: -230px;
+          z-index: 99;
+         }
+       .share_box {
+        width: 230px;
+        height: 325px;
+        color: rgb(90,90,90);
+        position: relative;
+       }
+       .share_right {
+            position: absolute;
+            right: -27px;
+            top: 17%;
+            width: 30px;
+            height: 90px;
+            background-color: rgb(70,119,230);
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+       }
+       .share_right p {
+          margin-top: 19px;
+        font-size: 17px;
+        color: white;
+       }
+       .share_box .share_top {
+        width: 100%;
+        height: 30px;
+        background-color: rgb(246,246,246);
+        line-height: 30px;
+       }
+    
+        .share_box .share_center {
+          width: 100%;
+          height: 265px;
+          overflow: hidden;
+          background-color: white;
+        }
+        .share_box .share_center .share_platform {
+           width: 100%;
+             height: 100%;
+             margin-left: 18px;
+        }
+        .share_box .share_center .share_platform a {
+          display: inline-block;
+          width: 90px;
+          height: 21px;
+          line-height: 21px;
+          text-indent: 10px;
+        }
+        .share_box .share_bottom {
+          width: 100%;
+          height: 30px;
+          background-color: rgb(246,246,246);
+          
+        }
+        .share_box .share_bottom a{
+            float: right;
+        }
+
+   /* 分享结束/
+
+   /*分享到 开始*/
+     
+        .bdsharebuttonbox_box{
+          width: 100%;
+          height: 37px;
+          background-color: #000;
+          opacity: 0.7;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          display: none;
+        }
+        /*.bdsharebuttonbox_box:*/
+        .bdsharebuttonbox_box .bdsharebuttonbox{
+            width: 140px;
+            height: 37px;
+            position: absolute;
+            top: 5px;
+            right: 10px; 
+        }
+        .bdsharebuttonbox_box .fx_box{
+            height: 37px;
+            color: white;
+            position: relative;
+            top: -23px;
+            left:-55px;  
+        }
+        /*分享到 结束*/
+
