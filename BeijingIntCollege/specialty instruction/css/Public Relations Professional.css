@@ -347,22 +347,30 @@ article .container .make{
 }
 
 
-@media screen and (max-width: 453px){
-    article .container .make{
-    width: 100%;
-    height: auto;
-    }
-/*
-    .make ul{
-        width: 100%;
-    }*/
 
-    .make  ul li{
-        width: 100%;
-        margin-left: 0;
-        float: left;
-        /*display: block;*/
-    }
+
+@media screen and (max-width: 350px) {
+  article  .container .make {
+    background: #F9AB2C;
+    height: auto;
+    border-radius: 3px;
+    zoom: 1;
+    overflow: hidden;
+    clear: both;
+    line-height: 37px;
+    text-align: center;
+}
+  article .container .make ul li {
+    width: 100%;
+    text-align: left;
+    font-size: 1.3em;
+    margin: 0;
+    float: left;
+    text-indent: 1em;
+}
+.make ul li.conceal{
+    display: block;
+}
 }
 
 
